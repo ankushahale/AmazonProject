@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T19:04:00 IST" name="NormalSuite" finished-at="2024-10-14T19:04:31 IST" duration-ms="31477">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestAddToCartFunctionality.verifyAddToCart()[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" name="verifyAddToCart" class="testClasses.TestAddToCartFunctionality"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestAddToCartFunctionality.verifyAddToCart()[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" name="verifyAddToCart" class="testClasses.TestAddToCartFunctionality"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-10-14T19:04:00 IST" name="NormalTest" finished-at="2024-10-14T19:04:31 IST" duration-ms="31477">
+      <class name="testClasses.TestAddToCartFunctionality">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" started-at="2024-10-14T19:04:00 IST" name="openBrowser" finished-at="2024-10-14T19:04:08 IST" duration-ms="7971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initializePOM()[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" started-at="2024-10-14T19:04:08 IST" name="initializePOM" finished-at="2024-10-14T19:04:08 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePOM -->
+        <test-method is-config="true" signature="loginToAmazon()[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" started-at="2024-10-14T19:04:08 IST" name="loginToAmazon" finished-at="2024-10-14T19:04:31 IST" duration-ms="23070" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\useer1\eclipse-workspace\ProjectExcelData.xlsx (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\useer1\eclipse-workspace\ProjectExcelData.xlsx (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at utils.Utility.fetchDataFromExcelSheet(Utility.java:14)
+at testClasses.TestAddToCartFunctionality.loginToAmazon(TestAddToCartFunctionality.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAmazon -->
+        <test-method signature="verifyAddToCart()[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" started-at="2024-10-14T19:04:31 IST" name="verifyAddToCart" finished-at="2024-10-14T19:04:31 IST" duration-ms="1" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\Users\useer1\eclipse-workspace\ProjectExcelData.xlsx (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\useer1\eclipse-workspace\ProjectExcelData.xlsx (The system cannot find the file specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
+at utils.Utility.fetchDataFromExcelSheet(Utility.java:14)
+at testClasses.TestAddToCartFunctionality.loginToAmazon(TestAddToCartFunctionality.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCart -->
+        <test-method is-config="true" signature="signOutApplication()[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" started-at="2024-10-14T19:04:31 IST" name="signOutApplication" finished-at="2024-10-14T19:04:31 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutApplication -->
+        <test-method is-config="true" signature="removePOM()[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" started-at="2024-10-14T19:04:31 IST" name="removePOM" finished-at="2024-10-14T19:04:31 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removePOM -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:testClasses.TestAddToCartFunctionality@76494737]" started-at="2024-10-14T19:04:31 IST" name="closedBrowser" finished-at="2024-10-14T19:04:31 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- testClasses.TestAddToCartFunctionality -->
+    </test> <!-- NormalTest -->
+  </suite> <!-- NormalSuite -->
+</testng-results>

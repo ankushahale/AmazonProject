@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">NormalSuite</th></tr>
+<tr><td><a href="#t0">NormalTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">31,477</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">NormalSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">NormalTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testClasses.TestAddToCartFunctionality</td><td><a href="#m0">loginToAmazon</a></td><td rowspan="1">1728912848352</td><td rowspan="1">23070</td></tr><tr><th colspan="4">NormalTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="3">testClasses.TestAddToCartFunctionality</td><td><a href="#m1">closedBrowser</a></td><td rowspan="1">1728912871553</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m2">removePOM</a></td><td rowspan="1">1728912871513</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">signOutApplication</a></td><td rowspan="1">1728912871485</td><td rowspan="1">0</td></tr><tr><th colspan="4">NormalTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testClasses.TestAddToCartFunctionality</td><td><a href="#m4">verifyAddToCart</a></td><td rowspan="1">1728912871460</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>NormalTest</h2><h3 id="m0">testClasses.TestAddToCartFunctionality#loginToAmazon</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: C:\Users\useer1\eclipse-workspace\ProjectExcelData.xlsx (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at utils.Utility.fetchDataFromExcelSheet(Utility.java:14)
+	at testClasses.TestAddToCartFunctionality.loginToAmazon(TestAddToCartFunctionality.java:76)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testClasses.TestAddToCartFunctionality#closedBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testClasses.TestAddToCartFunctionality#removePOM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testClasses.TestAddToCartFunctionality#signOutApplication</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testClasses.TestAddToCartFunctionality#verifyAddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: C:\Users\useer1\eclipse-workspace\ProjectExcelData.xlsx (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at utils.Utility.fetchDataFromExcelSheet(Utility.java:14)
+	at testClasses.TestAddToCartFunctionality.loginToAmazon(TestAddToCartFunctionality.java:76)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

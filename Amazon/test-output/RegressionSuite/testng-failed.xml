@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testClasses.VerifyYourOrderPage">
+        <methods>
+          <include name="vefiryYourOrderUrl"/>
+          <include name="verifyYourOrderPage"/>
+        </methods>
+      </class> <!-- testClasses.VerifyYourOrderPage -->
+      <class name="testClasses.VerifyLoginPage">
+        <methods>
+          <include name="verifyLoginWithValidInput"/>
+        </methods>
+      </class> <!-- testClasses.VerifyLoginPage -->
+      <class name="testClasses.TestAddToCartFunctionality">
+        <methods>
+          <include name="verifyAddToCart"/>
+        </methods>
+      </class> <!-- testClasses.TestAddToCartFunctionality -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
