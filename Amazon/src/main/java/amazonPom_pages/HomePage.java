@@ -18,6 +18,7 @@ public class HomePage {
 	@FindBy (xpath = "//span[text()='Sign in']")
 	private WebElement signIn;
 	
+	
 	@FindBy (xpath = "//span[text()='Sign Out']")
 	private WebElement signOut;
 	
