@@ -51,6 +51,7 @@ public class SignInPage {
 	public void clickOnCreateNewAccountButton() 
 	{
 		createNewAccount.click();
+		System.out.println();
 	}
 	
 	
